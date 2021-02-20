@@ -43,7 +43,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 11
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -118,8 +118,6 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
-    maxJobWorkers: 0
-    preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
@@ -175,7 +173,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -344,7 +341,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -617,7 +613,6 @@ TilemapRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2657,17 +2652,22 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 170597fe68a263c4ca96047e690fac4e, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 211
-    m_Data: {fileID: -6523222902320515145, guid: f809bd96eb614ad4d8ff50085ca0520a, type: 3}
+    m_Data: {fileID: -6523222902320515145, guid: f809bd96eb614ad4d8ff50085ca0520a,
+      type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 4
-    m_Data: {fileID: -8475667523556201351, guid: f809bd96eb614ad4d8ff50085ca0520a, type: 3}
+    m_Data: {fileID: -8475667523556201351, guid: f809bd96eb614ad4d8ff50085ca0520a,
+      type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -2088330561272008175, guid: f809bd96eb614ad4d8ff50085ca0520a, type: 3}
+    m_Data: {fileID: -2088330561272008175, guid: f809bd96eb614ad4d8ff50085ca0520a,
+      type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 3808464267750636856, guid: f809bd96eb614ad4d8ff50085ca0520a, type: 3}
+    m_Data: {fileID: 3808464267750636856, guid: f809bd96eb614ad4d8ff50085ca0520a,
+      type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -868497948345555786, guid: f809bd96eb614ad4d8ff50085ca0520a, type: 3}
+    m_Data: {fileID: -868497948345555786, guid: f809bd96eb614ad4d8ff50085ca0520a,
+      type: 3}
   m_TileMatrixArray:
   - m_RefCount: 220
     m_Data:
@@ -2746,6 +2746,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WinLose: {fileID: 25590627}
+  win: 0
+  lose: 0
 --- !u!4 &1426692480
 Transform:
   m_ObjectHideFlags: 0

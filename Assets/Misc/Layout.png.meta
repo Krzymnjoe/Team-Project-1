@@ -17,6 +17,9 @@ TextureImporter:
   - first:
       213: -868497948345555786
     second: Layout_4
+  - first:
+      213: 7343695773059602160
+    second: Layout_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -38,7 +41,6 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -73,7 +75,6 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -107,19 +108,19 @@ TextureImporter:
       name: Layout_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 30
-        height: 30
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97c2e181b41606a80800000000000000
-      internalID: -8475667523556201351
+      spriteID: 0f651c3a56c0ae560800000000000000
+      internalID: 7343695773059602160
       vertices: []
       indices: 
       edges: []
@@ -128,12 +129,12 @@ TextureImporter:
       name: Layout_1
       rect:
         serializedVersion: 2
-        x: 33
-        y: 1
-        width: 30
-        height: 30
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -149,12 +150,12 @@ TextureImporter:
       name: Layout_2
       rect:
         serializedVersion: 2
-        x: 65
-        y: 1
-        width: 30
-        height: 30
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,12 +171,12 @@ TextureImporter:
       name: Layout_3
       rect:
         serializedVersion: 2
-        x: 97
-        y: 1
-        width: 30
-        height: 30
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -191,12 +192,12 @@ TextureImporter:
       name: Layout_4
       rect:
         serializedVersion: 2
-        x: 129
-        y: 1
-        width: 30
-        height: 30
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
